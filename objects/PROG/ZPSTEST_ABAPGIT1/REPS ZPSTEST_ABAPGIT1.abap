@@ -29,3 +29,5 @@ cl_demo_output=>display( lt_spfli1 ).
 LOOP AT LT_SPFLI1 into data(ls_spfli1).
   write: ls_spfli1-carrid, ls_spfli1-connid.
 ENDLOOP.
+
+write: 'New line'.
