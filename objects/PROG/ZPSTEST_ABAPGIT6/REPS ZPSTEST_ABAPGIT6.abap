@@ -1,12 +1,9 @@
 *&---------------------------------------------------------------------*
-*& Report ZPSTEST_ABAPGIT2
+*& Report ZPSTEST_ABAPGIT6
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZPSTEST_ABAPGIT2.
-
-  data: lv_string type string value 'test'.
-
-  lv_string = |{ lv_string } program |.
-  write:lv_string.
-  write: 'Hello another commit'.
+REPORT zpstest_abapgit6.
+DATA: lv_data1 TYPE string VALUE 'hello'.
+DATA: lv_data2 TYPE string VALUE 'world'.
+DATA(res) = |{ lv_data1 } { lv_data2 }|.
