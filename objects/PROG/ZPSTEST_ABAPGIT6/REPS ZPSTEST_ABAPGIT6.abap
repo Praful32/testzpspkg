@@ -1,10 +1,9 @@
 *&---------------------------------------------------------------------*
-*& Report ZPSTEST_ABAPGIT3
+*& Report ZPSTEST_ABAPGIT6
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZPSTEST_ABAPGIT3.
-
-DATA: lv_string type string value 'Hello'.
-
-WRITE: 5 | { LV_STRING }, World!!!! |.
+REPORT zpstest_abapgit6.
+DATA: lv_data1 TYPE string VALUE 'hello'.
+DATA: lv_data2 TYPE string VALUE 'world'.
+DATA(res) = |{ lv_data1 } { lv_data2 }|.
