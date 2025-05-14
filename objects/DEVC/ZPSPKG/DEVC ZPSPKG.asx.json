@@ -40,7 +40,7 @@
     "CTEXT":"",
     "KORRFLAG":"X",
     "AS4USER":"",
-    "PDEVCLASS":"ZS41",
+    "PDEVCLASS":"",
     "DLVUNIT":"HOME",
     "COMPONENT":"",
     "NAMESPACE":"/0CUST/",
@@ -57,7 +57,7 @@
     "CREATED_BY":"PSHARMA",
     "CREATED_ON":"2024-07-09",
     "CHANGED_BY":"PSHARMA",
-    "CHANGED_ON":"2024-07-09",
+    "CHANGED_ON":"2025-05-14",
     "SRV_CHECK":"",
     "CLI_CHECK":"",
     "EXT_ALIAS":"",
@@ -87,7 +87,7 @@
    {
     "DEVCLASS":"ZPSPKG",
     "SPRAS":"E",
-    "CTEXT":"Test package"
+    "CTEXT":"PS Test package"
    }
   ]
  }
