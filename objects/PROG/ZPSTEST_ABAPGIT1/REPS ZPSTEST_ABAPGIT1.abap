@@ -31,3 +31,4 @@ LOOP AT LT_SPFLI1 into data(ls_spfli1).
 ENDLOOP.
 
 write: 'New line'.
+write: 'Another line'.
