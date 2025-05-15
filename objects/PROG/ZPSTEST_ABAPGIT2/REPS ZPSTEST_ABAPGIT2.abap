@@ -11,3 +11,4 @@ REPORT ZPSTEST_ABAPGIT2.
   write:lv_string.
   write: 'Hello another commit'.
   write: 'testing gcts auto commit'.
+  write: 'third commit'.
