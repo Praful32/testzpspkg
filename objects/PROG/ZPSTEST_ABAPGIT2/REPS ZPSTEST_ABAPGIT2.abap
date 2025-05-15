@@ -10,3 +10,4 @@ REPORT ZPSTEST_ABAPGIT2.
   lv_string = |{ lv_string } program |.
   write:lv_string.
   write: 'Hello another commit'.
+  write: 'testing gcts auto commit'.
