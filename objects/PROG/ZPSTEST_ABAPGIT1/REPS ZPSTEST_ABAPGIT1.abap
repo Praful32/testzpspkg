@@ -32,3 +32,5 @@ ENDLOOP.
 
 write: 'New line'.
 write: 'Another line'.
+write: 'Added one more'.
+write: 'Fourth one'.
