@@ -15,7 +15,7 @@ TYPES: BEGIN OF ty_spfli,
          cityfrom  TYPE s_from_cit,
        END OF ty_spfli.
 
-DATA: lt_spfli TYPE sorted TABLE OF ty_spfli with UNIQUE KEY carrid connid.
+DATA: lt_spfli TYPE SORTED TABLE OF ty_spfli WITH UNIQUE KEY carrid connid.
 
 
 lv_data = | lv_data{ lv_val }test |.
@@ -26,11 +26,8 @@ lt_spfli = VALUE #( ( carrid = 'VS' connid = '0001' countryfr = 'IN' cityfrom = 
                     ( carrid = 'AK' connid = '0002' countryfr = 'IN' cityfrom = 'BLR') ).
 DATA(lt_spfli1) = FILTER #( lt_spfli WHERE carrid = CONV #('VS') AND connid = CONV #('0001') ).
 cl_demo_output=>display( lt_spfli1 ).
-LOOP AT LT_SPFLI1 into data(ls_spfli1).
-  write: ls_spfli1-carrid, ls_spfli1-connid.
+LOOP AT lt_spfli1 INTO DATA(ls_spfli1).
+  WRITE: ls_spfli1-carrid, ls_spfli1-connid.
 ENDLOOP.
 
-write: 'New line'.
-write: 'Another line'.
-write: 'Added one more'.
-write: 'Fourth one'.
+WRITE: 'New line'.
