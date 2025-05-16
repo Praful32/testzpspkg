@@ -32,4 +32,6 @@ ENDLOOP.
 
 "Test git commit
 
+"Test commit 2
+
 WRITE: 'New line'.
