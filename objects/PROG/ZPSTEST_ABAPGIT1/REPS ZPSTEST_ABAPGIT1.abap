@@ -34,3 +34,4 @@ ENDLOOP.
 
 Write: 'Test123', lv_data.   " added in 780
 Write: 'TEST COMMIT!'.
+WRITE: 'Test commit 2'.    " added in 124
