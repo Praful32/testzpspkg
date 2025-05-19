@@ -33,3 +33,4 @@ ENDLOOP.
 "Test git commit
 
 WRITE: 'New line'.
+Write: 'Test',lv_data.   " added in 778.
