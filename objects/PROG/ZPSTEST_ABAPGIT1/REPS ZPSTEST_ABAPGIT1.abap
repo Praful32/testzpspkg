@@ -32,5 +32,4 @@ ENDLOOP.
 
 "Test git commit "Test commit 2
 
-   " added in 778.
-
+   write: 'Test branch 781'.
