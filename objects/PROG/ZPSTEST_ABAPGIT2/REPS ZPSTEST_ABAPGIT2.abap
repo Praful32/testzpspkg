@@ -13,3 +13,4 @@ REPORT ZPSTEST_ABAPGIT2.
   write: 'testing gcts auto commit'.
   write: 'third commit'.
   write: 'fourth commit'.
+  write: 'seventh commit'.
