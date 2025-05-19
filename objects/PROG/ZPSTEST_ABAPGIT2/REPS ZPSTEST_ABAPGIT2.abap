@@ -13,3 +13,7 @@ REPORT ZPSTEST_ABAPGIT2.
   write: 'testing gcts auto commit'.
   write: 'third commit'.
   write: 'fourth commit'.
+  " SO GCTS commit 1
+  write: 'fifth commit'.
+  WRITE: 'sixth commit'.
+  " EO GCTS commit 1
