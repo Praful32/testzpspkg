@@ -32,5 +32,5 @@ ENDLOOP.
 
 "Test git commit "Test commit 2
 
-Write: 'Test123', lv_data.   " added in 780
-Write: 'Test456', lv_data.   " added in 125
+Write: 'Test', lv_data1.   " added in 127
+Write: 'Test789', lv_data1.   " added in 127
