@@ -14,6 +14,8 @@ REPORT ZPSTEST_ABAPGIT2.
   write: 'third commit'.
   write: 'fourth commit'.
   " SO GCTS commit 1
-  write: 'fifth commit'.
+  WRITE: 'fifth commit'.
   WRITE: 'sixth commit'.
+  WRITE: 'Hello'.        " ADDED IN 128
+  WRITE: 'There!'.       " ADDED IN 128
   " EO GCTS commit 1
