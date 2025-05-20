@@ -4,6 +4,7 @@
        ro_instance = go_instance.
     ELSE.
       lv_data = 'TEST132'.                          " added in 132
+      lv_data = 'TEST134'.                          " added in 134
                                                     " added in 133
        ro_instance = new #( iv_name = iv_name       " added in 130
                             iv_type = iv_type
