@@ -30,7 +30,8 @@ LOOP AT lt_spfli1 INTO DATA(ls_spfli1).
   WRITE: ls_spfli1-carrid, ls_spfli1-connid.
 ENDLOOP.
 
-"Test git commit "Test commit 2
+"If you have questions, please ask in our IRC channel
+" if it's more urgent.
 
 Write: 'Test91011', lv_data.    " added in 127
 Write: 'Test101112', lv_data.   " added in 127
