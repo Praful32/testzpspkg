@@ -29,6 +29,9 @@ cl_demo_output=>display( lt_spfli1 ).
 LOOP AT lt_spfli1 INTO DATA(ls_spfli1).
   WRITE: ls_spfli1-carrid, ls_spfli1-connid.
 ENDLOOP.
+" test 123 ihidjiowsbjdid
+" uhdijeohbdbwjk
+
 Write: 'Test91011', lv_data.    " added in 127
 Write: 'Test101112', lv_data.   " added in 127
 Write: 'Test123456789', lv_data1. " added in cre
