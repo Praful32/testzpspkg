@@ -20,3 +20,11 @@ REPORT ZPSTEST_ABAPGIT2.
   WRITE: 'There!'.       " ADDED IN 130
   WRITE: 'Test 130'.     " ADDED IN 130
   " EO GCTS commit 1
+
+   " SO GCTS commit 2
+  WRITE: 'commit 5'.
+  WRITE: 'commit 6'.
+  WRITE: 'Hello'.        " ADDED IN 130
+  WRITE: 'There!'.       " ADDED IN 130
+  WRITE: 'Test 130'.     " ADDED IN 130
+  " EO GCTS commit 2
