@@ -35,6 +35,6 @@ ENDLOOP.
 Write: 'Test91011', lv_data.    " added in 127
 Write: 'Test101112', lv_data.   " added in 127
 Write: 'Test123456789', lv_data1. " added in cre
-* test merging of remote branches from gcts 4
-WRITE: 'merge branches in remote repo 4'.
-* test merging of remote branches from gcts 4
+* test merging of remote branches from gcts 5
+WRITE: 'merge branches in remote repo 5'.
+* test merging of remote branches from gcts 5
