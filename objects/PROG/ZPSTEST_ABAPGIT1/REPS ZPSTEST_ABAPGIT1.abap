@@ -32,8 +32,9 @@ ENDLOOP.
 " test 123 ihidjiowsbjdid
 " uhdijeohbdbwjk
 
-"Test 901
-"Test 902
 Write: 'Test91011', lv_data.    " added in 127
 Write: 'Test101112', lv_data.   " added in 127
 Write: 'Test123456789', lv_data1. " added in cre
+* test merging of remote branches from gcts
+WRITE: 'merge branches in remote repository from gcts'.
+* test merging of remote branches from gcts
